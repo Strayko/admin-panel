@@ -3,6 +3,7 @@
 namespace Tests\Feature;
 
 use App\Contact;
+use Carbon\Carbon;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Foundation\Testing\WithFaker;
 use Tests\TestCase;
@@ -34,6 +35,26 @@ class ContactsTest extends TestCase
         $response->assertSessionHasErrors($field);
         $this->assertCount(0, Contact::all());
       });
+  }
+
+  /** @test * */
+  public function email_must_be_a_valid_email()
+  {
+    $response = $this->post('/api/contacts', array_merge($this->data(), ['email' => 'NOT AN EMAIL']));
+
+    $response->assertSessionHasErrors('email');
+    $this->assertCount(0, Contact::all());
+  }
+
+  /** @test * */
+  public function birthdays_are_properly_stored()
+  {
+    $this->withoutExceptionHandling();
+    $response = $this->post('/api/contacts', array_merge($this->data()));
+
+    $this->assertCount(1, Contact::all());
+    $this->assertInstanceOf(Carbon::class, Contact::first()->birthday);
+    $this->assertEquals('05-22-1990', Contact::first()->birthday->format('m-d-Y'));
   }
 
   private function data()

@@ -147,22 +147,21 @@
       <recent name="C:\wamp64\www\jot\resources\js" />
     </key>
   </component>
-  <component name="RunManager" selected="PHPUnit.CoveredAllTests">
-    <configuration name="ContactsTest.a_contact_can_be_added" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <CommandLine>
-        <PhpTestInterpreterSettings>
-          <option name="interpreterName" value="PHP 7.2" />
-        </PhpTestInterpreterSettings>
-      </CommandLine>
-      <TestRunner bootstrap_file="$PROJECT_DIR$/vendor/autoload.php" class="Tests\Feature\ContactsTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/ContactsTest.php" method="a_contact_can_be_added" scope="Method" use_alternative_bootstrap_file="true" use_alternative_configuration_file="true" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="PHPUnit.ContactsTest.birthdays_are_properly_stored">
     <configuration name="ContactsTest.a_name_is_required" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Tests\Feature\ContactsTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/ContactsTest.php" method="a_name_is_required" scope="Method" />
       <method v="2" />
     </configuration>
+    <configuration name="ContactsTest.birthdays_are_properly_stored" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\ContactsTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/ContactsTest.php" method="birthdays_are_properly_stored" scope="Method" />
+      <method v="2" />
+    </configuration>
     <configuration name="ContactsTest.email_is_required" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Tests\Feature\ContactsTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/ContactsTest.php" method="email_is_required" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ContactsTest.email_must_be_a_valid_email" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\ContactsTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/ContactsTest.php" method="email_must_be_a_valid_email" scope="Method" />
       <method v="2" />
     </configuration>
     <configuration name="ContactsTest.fields_are_required" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
@@ -180,17 +179,19 @@
     </configuration>
     <list>
       <item itemvalue="PHPUnit.CoveredAllTests" />
-      <item itemvalue="PHPUnit.ContactsTest.a_contact_can_be_added" />
       <item itemvalue="PHPUnit.ContactsTest.a_name_is_required" />
       <item itemvalue="PHPUnit.ContactsTest.email_is_required" />
       <item itemvalue="PHPUnit.ContactsTest.fields_are_required" />
+      <item itemvalue="PHPUnit.ContactsTest.email_must_be_a_valid_email" />
+      <item itemvalue="PHPUnit.ContactsTest.birthdays_are_properly_stored" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="PHPUnit.ContactsTest.birthdays_are_properly_stored" />
+        <item itemvalue="PHPUnit.ContactsTest.email_must_be_a_valid_email" />
         <item itemvalue="PHPUnit.ContactsTest.fields_are_required" />
         <item itemvalue="PHPUnit.ContactsTest.email_is_required" />
         <item itemvalue="PHPUnit.ContactsTest.a_name_is_required" />
-        <item itemvalue="PHPUnit.ContactsTest.a_contact_can_be_added" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +204,7 @@
       <option name="presentableId" value="Default" />
       <updated>1598652959934</updated>
       <workItem from="1598652961017" duration="4432000" />
-      <workItem from="1598695557616" duration="4785000" />
+      <workItem from="1598695557616" duration="5983000" />
     </task>
     <servers />
   </component>
@@ -238,22 +239,22 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="580" y="171" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1598697527937" />
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1598700371034">
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1598701587520">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1598700371034" />
-    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1598700371034">
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1598701587520" />
+    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1598701587520">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1598700371034" />
-    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1598700371034">
+    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1598701587520" />
+    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1598701587520">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1598700371034" />
-    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1598700371034">
+    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1598701587520" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1598701587520">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1598700371034" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1598701587520" />
     <state x="301" y="75" key="SettingsEditor" timestamp="1598698491941">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
