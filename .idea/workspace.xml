@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4b7927fd-e1e7-4d35-936a-ca4ba71674af" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Contact.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ContactsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ContactsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/ContactFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/ContactFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_08_28_231933_create_contacts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_08_28_231933_create_contacts_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/Feature/ContactsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/ContactsTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -171,16 +166,16 @@
       <TestRunner class="Tests\Feature\ContactsTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/ContactsTest.php" method="a_contact_can_be_patched" scope="Method" />
       <method v="2" />
     </configuration>
-    <configuration name="ContactsTest.an_authenticated_user_can_add_a_contact" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\ContactsTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/ContactsTest.php" method="an_authenticated_user_can_add_a_contact" scope="Method" />
+    <configuration name="ContactsTest.a_contact_can_be_retrieved" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\ContactsTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/ContactsTest.php" method="a_contact_can_be_retrieved" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ContactsTest.a_list_of_contacts_can_be_fetched_for_the_authenticated_user" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\ContactsTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/ContactsTest.php" method="a_list_of_contacts_can_be_fetched_for_the_authenticated_user" scope="Method" />
       <method v="2" />
     </configuration>
     <configuration name="ContactsTest.only_the_owner_can_delete_the_contact" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Tests\Feature\ContactsTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/ContactsTest.php" method="only_the_owner_can_delete_the_contact" scope="Method" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ContactsTest.only_the_owner_of_the_contact_can_patch_the_contact" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\ContactsTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/ContactsTest.php" method="only_the_owner_of_the_contact_can_patch_the_contact" scope="Method" />
       <method v="2" />
     </configuration>
     <configuration name="CoveredAllTests" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -194,19 +189,19 @@
     </configuration>
     <list>
       <item itemvalue="PHPUnit.CoveredAllTests" />
-      <item itemvalue="PHPUnit.ContactsTest.an_authenticated_user_can_add_a_contact" />
-      <item itemvalue="PHPUnit.ContactsTest.only_the_owner_of_the_contact_can_patch_the_contact" />
       <item itemvalue="PHPUnit.ContactsTest.a_contact_can_be_patched" />
       <item itemvalue="PHPUnit.ContactsTest.only_the_owner_can_delete_the_contact" />
       <item itemvalue="PHPUnit.ContactsTest.a_contact_can_be_deleted" />
+      <item itemvalue="PHPUnit.ContactsTest.a_contact_can_be_retrieved" />
+      <item itemvalue="PHPUnit.ContactsTest.a_list_of_contacts_can_be_fetched_for_the_authenticated_user" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="PHPUnit.ContactsTest.a_list_of_contacts_can_be_fetched_for_the_authenticated_user" />
+        <item itemvalue="PHPUnit.ContactsTest.a_contact_can_be_retrieved" />
         <item itemvalue="PHPUnit.ContactsTest.a_contact_can_be_deleted" />
         <item itemvalue="PHPUnit.ContactsTest.only_the_owner_can_delete_the_contact" />
         <item itemvalue="PHPUnit.ContactsTest.a_contact_can_be_patched" />
-        <item itemvalue="PHPUnit.ContactsTest.only_the_owner_of_the_contact_can_patch_the_contact" />
-        <item itemvalue="PHPUnit.ContactsTest.an_authenticated_user_can_add_a_contact" />
       </list>
     </recent_temporary>
   </component>
@@ -222,7 +217,7 @@
       <workItem from="1598695557616" duration="5983000" />
       <workItem from="1598701603439" duration="7459000" />
       <workItem from="1598767110441" duration="2955000" />
-      <workItem from="1598782138287" duration="2330000" />
+      <workItem from="1598782138287" duration="5376000" />
     </task>
     <servers />
   </component>
@@ -257,33 +252,37 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="530" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.860@0.0.1600.860" timestamp="1598655515042" />
+    <state x="580" y="356" key="#com.jetbrains.php.lang.intentions.PhpImportClassDialog#" timestamp="1598786998184">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="580" y="356" key="#com.jetbrains.php.lang.intentions.PhpImportClassDialog#/0.0.1600.860@0.0.1600.860" timestamp="1598786998184" />
     <state x="580" y="171" key="FileChooserDialogImpl" timestamp="1598697527937">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="580" y="171" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1598697527937" />
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1598784324570">
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1598787997963">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1598784324570" />
-    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1598784324570">
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1598787997963" />
+    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1598787997963">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1598784324570" />
-    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1598784324570">
+    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1598787997963" />
+    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1598787997963">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1598784324570" />
-    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1598784324570">
+    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1598787997963" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1598787997963">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1598784324570" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1598787997963" />
     <state x="301" y="75" key="SettingsEditor" timestamp="1598698491941">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="301" y="75" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1598698491941" />
-    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1598783295747">
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1598787483419">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1598783295747" />
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1598787483419" />
   </component>
 </project>
