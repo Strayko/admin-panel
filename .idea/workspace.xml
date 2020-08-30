@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b7927fd-e1e7-4d35-936a-ca4ba71674af" name="Default Changelist" comment="" />
+    <list default="true" id="4b7927fd-e1e7-4d35-936a-ca4ba71674af" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ContactsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ContactsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/ContactsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/ContactsTest.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +25,9 @@
         <option value="Vue Single File Component" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
@@ -136,6 +147,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/vendor/autoload.php" />
@@ -147,25 +159,25 @@
       <recent name="C:\wamp64\www\jot\resources\js" />
     </key>
   </component>
-  <component name="RunManager" selected="PHPUnit.ContactsTest.birthdays_are_properly_stored">
-    <configuration name="ContactsTest.a_name_is_required" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\ContactsTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/ContactsTest.php" method="a_name_is_required" scope="Method" />
+  <component name="RunManager" selected="PHPUnit.CoveredAllTests">
+    <configuration name="ContactsTest.a_contact_can_be_added" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\ContactsTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/ContactsTest.php" method="a_contact_can_be_added" scope="Method" />
       <method v="2" />
     </configuration>
-    <configuration name="ContactsTest.birthdays_are_properly_stored" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\ContactsTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/ContactsTest.php" method="birthdays_are_properly_stored" scope="Method" />
+    <configuration name="ContactsTest.a_contact_can_be_deleted" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\ContactsTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/ContactsTest.php" method="a_contact_can_be_deleted" scope="Method" />
       <method v="2" />
     </configuration>
-    <configuration name="ContactsTest.email_is_required" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\ContactsTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/ContactsTest.php" method="email_is_required" scope="Method" />
+    <configuration name="ContactsTest.a_contact_can_be_patched" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\ContactsTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/ContactsTest.php" method="a_contact_can_be_patched" scope="Method" />
       <method v="2" />
     </configuration>
-    <configuration name="ContactsTest.email_must_be_a_valid_email" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\ContactsTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/ContactsTest.php" method="email_must_be_a_valid_email" scope="Method" />
+    <configuration name="ContactsTest.an_authenticated_user_can_add_a_contact" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\ContactsTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/ContactsTest.php" method="an_authenticated_user_can_add_a_contact" scope="Method" />
       <method v="2" />
     </configuration>
-    <configuration name="ContactsTest.fields_are_required" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\ContactsTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/ContactsTest.php" method="fields_are_required" scope="Method" />
+    <configuration name="ContactsTest.an_authenticated_user_should_redirected_to_login" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\ContactsTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/ContactsTest.php" method="an_authenticated_user_should_redirected_to_login" scope="Method" />
       <method v="2" />
     </configuration>
     <configuration name="CoveredAllTests" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -179,19 +191,19 @@
     </configuration>
     <list>
       <item itemvalue="PHPUnit.CoveredAllTests" />
-      <item itemvalue="PHPUnit.ContactsTest.a_name_is_required" />
-      <item itemvalue="PHPUnit.ContactsTest.email_is_required" />
-      <item itemvalue="PHPUnit.ContactsTest.fields_are_required" />
-      <item itemvalue="PHPUnit.ContactsTest.email_must_be_a_valid_email" />
-      <item itemvalue="PHPUnit.ContactsTest.birthdays_are_properly_stored" />
+      <item itemvalue="PHPUnit.ContactsTest.a_contact_can_be_added" />
+      <item itemvalue="PHPUnit.ContactsTest.a_contact_can_be_patched" />
+      <item itemvalue="PHPUnit.ContactsTest.an_authenticated_user_should_redirected_to_login" />
+      <item itemvalue="PHPUnit.ContactsTest.an_authenticated_user_can_add_a_contact" />
+      <item itemvalue="PHPUnit.ContactsTest.a_contact_can_be_deleted" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="PHPUnit.ContactsTest.birthdays_are_properly_stored" />
-        <item itemvalue="PHPUnit.ContactsTest.email_must_be_a_valid_email" />
-        <item itemvalue="PHPUnit.ContactsTest.fields_are_required" />
-        <item itemvalue="PHPUnit.ContactsTest.email_is_required" />
-        <item itemvalue="PHPUnit.ContactsTest.a_name_is_required" />
+        <item itemvalue="PHPUnit.ContactsTest.a_contact_can_be_deleted" />
+        <item itemvalue="PHPUnit.ContactsTest.an_authenticated_user_should_redirected_to_login" />
+        <item itemvalue="PHPUnit.ContactsTest.an_authenticated_user_can_add_a_contact" />
+        <item itemvalue="PHPUnit.ContactsTest.a_contact_can_be_patched" />
+        <item itemvalue="PHPUnit.ContactsTest.a_contact_can_be_added" />
       </list>
     </recent_temporary>
   </component>
@@ -205,6 +217,8 @@
       <updated>1598652959934</updated>
       <workItem from="1598652961017" duration="4432000" />
       <workItem from="1598695557616" duration="5983000" />
+      <workItem from="1598701603439" duration="7459000" />
+      <workItem from="1598767110441" duration="610000" />
     </task>
     <servers />
   </component>
@@ -227,6 +241,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="254" y="85" width="1092" height="762" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1598697625710" />
+    <state x="92" y="92" width="1416" height="676" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1598706298416">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="92" y="92" width="1416" height="676" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1600.860@0.0.1600.860" timestamp="1598706298416" />
     <state x="541" y="16" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1598654591629">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -239,22 +257,22 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="580" y="171" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1598697527937" />
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1598701587520">
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1598742897381">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1598701587520" />
-    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1598701587520">
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1598742897381" />
+    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1598742897381">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1598701587520" />
-    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1598701587520">
+    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1598742897381" />
+    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1598742897381">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1598701587520" />
-    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1598701587520">
+    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1598742897381" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1598742897381">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1598701587520" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1598742897381" />
     <state x="301" y="75" key="SettingsEditor" timestamp="1598698491941">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
