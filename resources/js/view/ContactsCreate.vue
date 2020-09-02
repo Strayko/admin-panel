@@ -38,7 +38,7 @@ name: "ContactsCreate",
     submitForm: function () {
       axios.post('/api/contacts', this.form)
       .then(response => {
-
+        this.$router.push(response.data.links.self);
       })
        .catch(errors => {
           this.errors = errors.response.data.errors;
